@@ -42,6 +42,29 @@ body{
     color: black;
 }
 
+.row {
+    background-color: #F48787;
+    color:#ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.row > li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+.row > li > a {
+    text-decoration: none;
+    color:#ffffff;  
+}
+
+.row > li > a:hover {
+    font-weight: 900;
+    color: black;
+}
+
 .projecttitle {
     text-align: center; 
     color: #ffffff;
@@ -112,7 +135,7 @@ DIV.column img:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
 }
 
 .container:hover .image {
