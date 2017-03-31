@@ -57,3 +57,12 @@ ul {
     padding: 5px; 
 }
 
+.column {
+  width: 320px;
+  height: 320px;
+  background-color: #ddd;
+  margin: 15px;
+  float: left;
+  cursor: pointer;
+align-content: center;
+}
