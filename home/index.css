@@ -1,91 +1,13 @@
 
 
 ///
-html,body,address,blockquote,div,form,fieldset,caption,h1,h2,h3,h4,h5,h6,hr,ul,ol,ul,li,table,tr,td,th,p,img {
-	margin: 0; 
-	padding: 0; 
+html{
+    background-color: #F48787 !important;
 }
 
 html, body {
 	width: 100%;
 	height: 100%;
+    background-color: #F48787 !important;
 }
 
-body {
-
-}
-
-.left-top,
-.right-top,
-.left-bottom,
-
-
-
-.right-top {
-	left: 50%;
-	background: url(images/rt.gif);		
-}
-
-.left-top {
-	background: url(images/rb.gif);		
-    position: relative;
-    left: 0px;
-    top:0px;
-}
-
-.left{
-    width: 50%;
-}
-
-.left-bottom {
-	background: url(images/lb.gif);	
-    position: relative;
-    left: 0px;
-}
-
-.right-bottom {
-	left: 50%;
-	top: 50%;
-	background: url(images/rb.gif);		
-}
-
-.lefttop{
-    float: left;
-    width: 100%;
-    display: block;
-    
-}
-.leftbottom{
-    float: right;
-    width: 100%;
-    display: block;
-}
-
-.middle2{
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-}
-
-.middle {
-    background: url(images/rb.gif);		   
-    position: relative;
-    display: block;
-}
-
-#wrapper  {
-	width: 60%;
-	min-height: 100%;
-	margin: 0 auto;
-	position: relative;
-	z-index: 1;
-  	background: #FFF;
-	filter: alpha(opacity=80);
-  	opacity: 0.8; /* CSS 3 Stndard */
-	border: solid #000;
-	border-width: 0 1px;
-}
-
-* html #wrapper {
-	height: 100%;	
-}
