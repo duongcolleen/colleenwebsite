@@ -19,6 +19,10 @@ body{
     height:130px
 }
 
+.row {
+    background-color: #F48787;
+}
+
 .nav {
     background-color: #F48787;
     color:#ffffff;
